@@ -1,60 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Table and Ordered List Example</title>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h2>Tables Names and Roll Number</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Roll Number</th>
+          <th>Name</th>
+        </tr>
+      </thead>
+      
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Tarun</td>
+        </tr>
+        
+        <tr>
+          <td>2</td>
+          <td>Priya</td>
+        </tr>
+        
+        <tr>
+          <td>3</td>
+          <td>Mustafa</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>List of Medias</h2>
+   <ol>
+      <li>
+          First Item:  
+          <img src="https://picsum.photos/id/123/200/300" alt="Random image from Picsum" style="height:100px;width:100px; ">
+      </li>
 
-</head>
-<body>
+      <li>
+        Second Item: 
+          <video controls style="height:100px;width:200px; display:inline-block">
+            <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+          </video>
+      </li>
 
-<h2>Table of Roll Numbers and Names</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Roll Number</th>
-      <th>Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>John Doe</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>Jane Smith</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>Michael Brown</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2>List of Medias</h2>
-
-<ol>
-  <li>
-    <p>First Item: Image</p>
-    <img src="https://picsum.photos/id/123/200/300" alt="Random Image from Picsum">
-  </li>
-  <li>
-    <p>Second Item: Video</p>
-    <video width="320" height="240" controls>
-      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </li>
-  <li>
-    <p>Third Item: Audio</p>
-    <audio controls>
-      <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
-      Your browser does not support the audio tag.
-    </audio>
-  </li>
-</ol>
-
-</body>
+      <li>
+        Third Item: 
+        <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg" height="300px" controls >
+        </audio>
+      </li>
+    </ol>
+  </body>
 </html>
